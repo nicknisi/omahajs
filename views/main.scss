@@ -1,0 +1,41 @@
+$base: #BFBCAA;
+$light: #F1F2E8;
+$blue: #5D7F8C;
+$header: #F1F2EB;
+
+@font-face {
+	font-family: bebas;
+	src: url('font/BebasNeue.otf');
+}
+
+@font-face {
+	font-family: meslo;
+	src: url('font/MesloLGM-DZ-Regular.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: $base;
+	font-family: meslo;
+}
+
+header, hgroup, section, article, nav {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: bebas;
+	color: $blue;
+	text-shadow: 3px 2px $light;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+header {
+}
